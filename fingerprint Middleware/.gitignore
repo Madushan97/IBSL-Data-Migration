@@ -1,0 +1,67 @@
+# Spring Boot
+/target/
+/build/
+/bin/
+/logs/
+.gradle/
+mvnw
+mvnw.cmd
+*.iml
+
+# IDE-specific files (e.g., IntelliJ IDEA, Eclipse)
+.idea/
+.classpath
+.project
+.settings/
+*.ipr
+*.iws
+
+# Compiled class files
+*.class
+
+# Compiled Java
+*.war
+*.jar
+
+# Logs
+*.log
+log/
+logs/
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# Intellij
+.idea/
+
+# VSCode
+.vscode/
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+
+# Gradle wrapper properties
+gradle-wrapper.properties
+gradle-wrapper.jar
+
+# Spring Boot Devtools
+.restart
+
+# JAR Files
+*.jar
