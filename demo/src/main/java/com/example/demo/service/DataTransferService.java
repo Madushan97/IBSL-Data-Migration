@@ -21,6 +21,7 @@ public class DataTransferService {
         if (dataToTransfer != null ) {
             if(dataToTransfer!=null) {
                 targetRepository.save(dataToTransfer);
+                System.out.println(targetRepository.save(dataToTransfer));
             }
         }
             return "Successfully saved";

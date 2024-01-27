@@ -4,19 +4,20 @@ server:
 spring:
   datasource:
 
-#    external:
+#    target:
 #      url: jdbc:mysql://20.212.81.211/ibslhr?allowPublicKeyRetrieval=true&useSSL=false
       url: jdbc:mysql://20.212.81.211:3306/ibslhr?allowPublicKeyRetrieval=true&useSSL=false
       username: ibslhr_fp
       password: yHGPinUCBJAP162Z
       driverClassName: com.mysql.jdbc.Driver
 
-  #    external:
-  #      url: jdbc:mysql://localhost:3306/ibslhr?allowPublicKeyRetrieval=true&useSSL=false
-  #      username: root
-  #      password: root
-  #      driverClassName: com.mysql.cj.jdbc.Driver
-
+  #    target:
+#        url: jdbc:mysql://localhost:3306/ibslhr?allowPublicKeyRetrieval=true&useSSL=false
+#        username: root
+#        password: madushan
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+  #        driverClassName: com.mysql.cj.jdbc.Driver
+#        driverClassName: com.mysql.jdbc.Driver
   jpa:
     show_sql: false
     hibernate:
